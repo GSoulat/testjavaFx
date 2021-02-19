@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="fond" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMouseExited="#changeworld" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.McHome">
+	<children>
+		<Label fx:id="lblHello" layoutX="239.0" layoutY="45.0" text="Hello world !" />
+      <TextField fx:id="tInput" layoutX="188.0" layoutY="95.0" onMouseExited="#changeworld" />
+      <DatePicker layoutX="250.0" layoutY="293.0" onShowing="#changeworld" />
+	</children>
+</AnchorPane>
